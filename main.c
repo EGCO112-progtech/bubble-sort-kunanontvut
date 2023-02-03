@@ -20,14 +20,14 @@ int main(int argc , char *argv[]) {
   }
   n=j;
   if(n==0)printf("No prime\n");
-  else{
-  display(prime, n);
-  bubbleSort(prime, n);
-  // insertion(a,N);
+  
+  //display(prime, n);
+  //bubbleSort(prime, n);
+  insertion(a,N);
+  //selectionSort(a,N);
+  //display(prime, n);
 
-  // selectionSort(a,N);
-  display(prime, n);
-  }
   return 0;
-}
+  }
+
   
